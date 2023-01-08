@@ -1,0 +1,43 @@
+.flex-container{
+    display: block;
+    margin: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-cart{
+    background-color: cyan;
+    padding: 10px;
+    box-shadow: 0 3px 3px blueviolet;
+    display:flex
+}
+
+.img{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.shopping-cart span{
+    align-items: flex-end;
+    margin-left: 1150px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.floating{
+    display: flex;
+    margin: 10px;
+    width: 800px;
+    background-color: beige;
+    box-shadow: 0 3px 3px grey;
+}
+
+.payment{
+    margin-left: 600px;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 5px 5px blueviolet;
+}
